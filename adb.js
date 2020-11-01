@@ -28,7 +28,3 @@ var script = document.createElement('script');
 script.type = 'text/javascript';
 script.src = 'https://pagead2.googlesyndication.com/pagead/show_ads.js';
 document.body.appendChild(script);
-
-if(typeof myb !== 'undefined'){
-myb.style = "display:none;position:fixed;bottom:70px;right:10px;width:40px;height:35px;z-index:99;font-size:30px;padding:3px 3px 0px 3px;background-color:#333;color:#eee;cursor:pointer;border:none;outline:none;border-radius:2px;";
-    }
